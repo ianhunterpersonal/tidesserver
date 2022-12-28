@@ -4,6 +4,7 @@ pipeline {
 		imagename = "ianhunterpersonal/tidesserver"
 		registryCredential = 'dockerhub'
 		dockerImage = ''
+        JAVA_HOME = '/Users/developer/.sdkman/candidates/java/current'
 	}
 
     agent any
